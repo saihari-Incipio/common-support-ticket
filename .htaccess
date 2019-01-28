@@ -1,0 +1,13 @@
+RewriteEngine On
+
+#ignore rewrite rule for file and directory
+RewriteCond %{REQUEST_FILENAME} !-f  
+RewriteCond %{REQUEST_FILENAME} !-d
+
+#Appling MVC rule
+RewriteRule ^(.*)$ index.php?r=$1 [L,QSA]
+
+#For Local
+ErrorDocument 404 /ecom/pagenotfound
+
+

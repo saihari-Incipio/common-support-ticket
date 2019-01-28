@@ -1,0 +1,29 @@
+.ui-autocomplete-loading { background: white url('../images/ui-anim_basic_16x16.gif') right center no-repeat; }
+button:focus { outline: 0; }
+.myClass label { text-align:center; display:block; padding:4px; font-size:16px !important; }
+#ui-datepicker-div, .ui-datepicker{ font-size: 85%; }
+.example-container input{ border: solid 1px #aaa; padding: 4px; width: 175px; }
+
+.make-red{ color:red !important; font-size:12pt !important;}
+.error{/*color:blue;*/}
+.styled-select{ width: 100%; border: none; font-family:Roboto Condensed; font-size:12pt; display: block; float: none; margin-top: 9px; border:1px solid; color: #6d6e71; padding: 4px;}
+.styled-selectmini{ width: 100px !important; border: none; font-family:Roboto Condensed; font-size:12pt; display: block; float: none; margin-top: 9px; border:1px solid; color: #6d6e71; padding: 4px; }
+.text-style-number{ width:40px !important; height:30px !important; margin-left:30px !important; }
+.txtfield { display: block; float: none;}
+textarea{ width:100%; }        
+#linktoimages{width:400px;}
+.add_field_button{padding: 0; margin: 0; border: 0; background-color: white; }
+
+@media screen and (min-height:75%) {
+    .form {
+        background:#fff;
+        bottom: 0;  width:560px;height:1100px; /*margin:0 auto;*/ margin:0px auto;margin-bottom:0px !important; padding-left:15px; /*padding-top:20px;*/
+    }
+}
+
+@media screen and (min-height:2000px) {
+    .form {
+        background:#fff;
+        bottom: 0;  width:560px;height:2140px; /*margin:0 auto;*/ margin:0px auto;margin-bottom:0px !important; padding-left:15px; /*padding-top:20px;*/
+    }
+}

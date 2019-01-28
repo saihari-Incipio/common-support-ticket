@@ -1,0 +1,357 @@
+
+     
+    .error{
+        color: red;
+        /*margin-left: 10px;*/
+        font-size:15px !important;
+    }
+    .success{
+        color: green;
+    }
+    
+    .support-container-div{
+
+        margin: auto;
+        padding: 0 100px;
+        margin-top: 20px;
+
+    }
+    .div-file {    
+        background-color: #7bc3f7;
+        padding: 4px 8px 20px;
+        height: 17px;
+        text-align: left;
+        border-radius:3px;
+    }
+    #support-project-quotation .form{
+        /*width: 650px;*/ 
+    }
+    #support-dialog{
+        padding: 0px;
+    }
+    .support_header{
+        display: block;
+        height: 40px;
+        background-color: #cdcdcd;
+        text-align: center;
+        vertical-align: bottom !important;
+        line-height: 40px;
+        font-weight: bold;
+    }
+    .rowconsis{
+        padding: 4px 2px;
+    }
+    .rowconsisdiv{
+        padding: 7px 0px;
+    }
+    .request {
+        width: 515px;
+        background: #e3e2e2;
+        border: 1px;
+        border-radius: 3px;
+        font-size: 15px !important;
+        padding: 6px;
+        color: #000;
+    }
+    #support-project-quotation input::placeholder , textarea::placeholder  {
+        font-family: Roboto Bold Condensed;
+        color: #000;
+        /*font-weight: bold;*/
+        /*text-decoration:*/
+    }
+    #support-project-quotation select option{
+        background-color: #FFFFFF;
+        color: #000;
+    }
+
+    #support-project-quotation select label{
+        color: #000;
+    }
+.singlefile{
+    padding: 5px;
+     text-align: left !important;
+     word-break: break-all;
+    /*border-bottom: 0.5px solid #FFF;*/
+}
+
+    #support-project-quotation textarea{
+        height: 80px;
+        resize: none;
+        color:#000;
+    }
+    #support-project-quotation input[type=text] {
+        color: #000;
+    }
+    #support-project-quotation .upload_file_div{
+        width: 523px;
+        /*background-color: #7bc3f7;*/
+        padding: 4px;
+        border-radius: 3px;
+        text-align: center;
+    }
+    .support_file_span{
+        cursor: pointer;
+        /*padding-left: 30px;*/
+    }
+    .support-button{
+        /*height: 30px;*/
+        border-radius: 5px;
+        font-family: Roboto Condensed !important;
+        /*font-weight: bold;*/
+        border: 1px #000 solid;
+         letter-spacing: 1px;
+        cursor: pointer;
+        padding:5px 15px;
+    }
+    #support-project-quotation .submitBtn{
+        color: #FFFFFF;
+        background-color: #000;
+
+    }
+    #support-project-quotation .cancelBtn{
+        color: #000;
+        background-color: #FFFFFF;    
+    }
+    #support-project-quotation .support-button-span{
+        padding: 15px;
+    }
+    #file_name{
+        float: left;
+        /*width: 100px;*/
+    }
+
+/*    #support-project-quotation input::-webkit-input-placeholder{
+        font-family: Arial,Helvetica,sans-serif !important;
+        font-weight: lighter;
+        color: #6b6868;
+    }
+    #support-project-quotation textarea::-webkit-input-placeholder{
+        font-family: Arial,Helvetica,sans-serif !important;
+        font-weight: lighter;
+        color: #6b6868;
+    }*/
+
+    #support-project-quotation .selectize-control{
+        color:#000;
+        width: 527px !important;
+        background-color: #fff !important;
+        border-radius: 3px !important;
+        padding: 0px !important
+    }
+
+    #support-project-quotation .selectize-input{
+        border: none;
+        /*background: #CBCBCB;*/
+        width: 528px ;
+        padding: 0px 2px!important;
+        border: 0px !important;
+        border-radius: 3px !important;  
+        background-color: #e3e2e2;
+    }
+    #additional-cc-selectized {
+        height:50px !important;
+    }
+    .custom-select {
+        width:526px;
+    }
+    
+    
+    /* support ticket view css */
+    
+    
+
+    .header-icons {
+    width: 35px;
+    /*margin-top:30px;*/
+    
+}
+
+.drag {
+    
+    font-size:25px;
+    color:#cdcdcd;
+}
+.tarea {
+    
+   padding:5px;font-size:18px; 
+}
+.lable-name {
+        color: #898989;
+        font-size:16px;
+}
+.log{
+    border: 2px solid #e3e2e2;
+    font-family: Roboto Condensed !important;
+    background-color: #F6F7FB;
+    border-radius: 5px;
+    box-shadow: 0 0 2px 2px whitesmoke;
+    margin-top:10px;
+    padding:10px;
+}
+textarea {
+      resize: none;
+    border: 2px solid #e3e2e2;
+    font-family: Roboto Condensed !important;
+    background-color: #F6F7FB;
+    border-radius: 5px;
+    box-shadow: 0 0 2px 2px whitesmoke;
+    color:#000;
+}
+.ticket-main-container{
+    /*width: 80% !important;*/
+    /*margin: 20px;*/
+    text-align: center !important;
+        
+}
+
+.ticket-info-container{
+    /*border: 2px solid #E3E2E2 !important;*/
+    padding-top:50px !important;
+    text-align: center;
+}
+
+.sub-heading{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px 0px;
+}
+.ticket_info_table{
+    width: 100%;
+    /*padding: 25px 0px 0px;*/
+    margin-top:30px;
+    /*border-spacing: 5px 1rem;*/
+    
+}
+.ticket_info_table .spaceUnder  {
+  vertical-align: bottom; 
+  height: 50px;
+}
+.table_rows_two {
+    color: #898989;
+    padding-bottom: 40px;
+}
+
+.description_div{
+    text-align: left;
+}
+
+.thumbnail-img-outer-div {
+    padding: 50px;
+}
+.thumbnail-img-div {
+    display: inline-block;
+    padding-right: 20px;
+    padding-top: 10px;
+    width: 25%;
+    text-align: center;
+    /* height: 170px; */
+}
+
+.thumbnail-img-div-inner {
+    border: 1px solid #e3e2e2;
+    /*width:350px;*/
+}
+
+.comment_section{
+    padding-top: 40px;
+    text-align: left;
+}
+.comments{
+    padding-top: 40px;
+}
+.tabmenu {
+    padding: 4px;
+    border:0px;
+    border-collapse: collapse;
+    font-family: Roboto Condensed !important;
+    cursor: pointer;
+}
+.tabmenu td.active_tabitem {
+    border-bottom: none;
+     width: 30%;
+     text-align: center;
+}
+.tabitem_select {
+    background-color: #434343;
+    text-align: center;
+    padding: 5px 0px;
+    color: #fff;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.buttton_black{
+   cursor: pointer;
+   padding:10px;
+   color: #fff;
+   background-color: #000000;
+   border-radius: 5px;
+   border: none !important;
+   
+}
+.ticket_data_div{
+    border: 2px solid #E3E2E2;
+    padding: 10px 20px 20px; 
+    text-align: left;
+        margin-top: 35px;
+}
+.comment-icons{
+    width:20px; 
+    cursor: pointer;
+}
+
+.comment_date_section{
+    padding-left:10px;
+    color: #919191;
+    font-size: 12px;
+    line-height: 2;
+}
+.comment_body{
+    width: 98%;
+}
+.comments_div{
+    background-color: #f4f4f4;
+    padding:10px 10px 10px;
+}
+.confirm_button{
+    background-color: #000000;
+    color: #fff;
+}
+.cancel_button{
+    background-color: #fff;
+     color: #000000;
+}
+
+select{
+    font-weight: solid;
+  color: #000000;
+}
+
+#drop-zone #myfile {
+    position: absolute;
+    opacity: 0;
+    /* margin-left: -400px; */
+    display: block;
+    width: 5%;
+    text-align: center;
+    margin: -41px 114px;
+}
+.todo {
+    background-color: #9F9F9F;
+    padding: 3px 20px;
+    border-radius: 3px;
+    color: #fff;
+}
+
+.inprogress {
+    background-color: #003BFF;
+    padding: 3px 20px;
+    border-radius: 3px;
+    color: #fff;
+}
+
+.done {
+    background-color: #55C44B;
+    padding: 3px 20px;
+    border-radius: 3px;
+    color: #fff;
+}

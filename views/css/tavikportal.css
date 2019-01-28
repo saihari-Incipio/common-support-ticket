@@ -1,0 +1,252 @@
+p{
+    /*font-family:roboto;*/
+    font-size:14px;
+}
+
+h3 {
+    font-family:roboto;
+    font-size:20px;
+}
+
+.tdstyle{ 
+    width: 130px;
+    padding:2px;
+    line-height: 90%;
+    height:auto; 
+}
+
+.tdstyle select{
+    font-size:11px;
+    height:18px;
+    padding:2px;
+    margin:2px; 			 
+}
+
+#ui-datepicker-div, .ui-datepicker{ font-size: 85%; }
+.example-container input{ border: solid 1px #aaa; padding: 4px; width: 175px; }
+
+
+.expired{
+    background-color:#F00 !important;	
+    color:#fff;
+}
+img.sorting_arrow{
+    height:25px;
+    width:12px;
+}
+img.active{
+    background-color:#fff;
+}
+#uparrow{
+
+
+}
+
+h3{
+    font-family:roboto;
+    font-size:18px;
+}
+
+#calender-view{
+    display: none;
+    min-height: 800px;
+    margin-top:-15px;
+}
+
+
+@font-face {
+    font-family: Roboto Bold Condensed;
+    src: url(fonts/Roboto_Condensed/RobotoCondensed-Bold.ttf);
+}
+@font-face {
+    font-family:Roboto Condensed;
+    src: url(fonts/Roboto_Condensed/RobotoCondensed-Regular.ttf);
+}
+
+
+#calendarTable{
+    font-family:Roboto Bold Condensed !important;
+    width: 100%;
+    border:0px;
+    table-layout:fixed;
+    /*height: 500px;*/
+}
+#calendarTable TH {
+
+    font-family:Roboto !important;
+    height: 50px;
+    background-color: #fff;
+    color: #000;
+    border:0px;
+    font-weight: bold;
+    font-size: 14px;
+    font-family:roboto;
+    vertical-align:bottom;
+}
+#calendarTable TD{text-align:center;
+                  font-family:Roboto !important;
+                  height: 80px;
+                  background-color: #fff;
+
+                  font-size: 14px;
+                  font-family:roboto;
+                  border: 1px  solid #000;
+
+                  height:auto;
+                  width:auto;
+                  width:200px;
+                  height:100px;
+                  overflow:none;
+                  /*white-space:nowrap;*/
+                  vertical-align:top;
+}
+#tableBody tr td{
+    /* width: 80px;
+     height:80px;*/
+}
+
+#tooltip{
+    font-family:Roboto Bold Condensed !important;
+    position:absolute;
+    /* width:150px;*/
+    padding:15px;
+    border:1px solid #000;
+    background-color:#fff;
+    color:#000;
+}
+
+.previous-month-select{
+
+    border-right: 0px;
+    cursor: pointer;
+
+}
+
+.next-month-select{
+
+    border-left: 0px;
+    cursor: pointer;
+
+}
+
+h3{
+    font-family:roboto  !important;
+    font-size:18px;
+}
+
+.selected-month{
+
+    border-left: 0px;
+    border-right: 0px;
+
+}
+#popup-table{
+    /*border:2px solid black;*/
+}
+
+#popup-table tr {
+    text-align: left;
+}
+
+#popup-table tr td{
+    font-family:Roboto Bold Condensed !important;
+    text-align: left;
+    font-weight:bold;
+}
+
+td.trcolor_closed_status{
+    background-color:silver !important;
+}
+a.active{
+    background-color:#000;
+    padding:5px;
+    height:25px;	
+    line-height:25px;
+    color:#fff;
+    border-radius: 12px;
+    cursor:pointer;
+}
+a.inactive{
+    background-color:#fff;
+    color:#000;
+    border-radius: 5px;
+    padding:5px;
+    height:25px;
+    cursor:pointer; 
+    line-height:25px;	
+}
+
+
+#selected-month
+{
+    background-image: url(../images/CalendarView-MonthMiddle.png);
+    background-repeat: no-repeat;
+    width:149px;
+    height:43px;
+    display: inline-block;
+    font-family: Roboto Bold Condensed;
+    font-size:20px;
+    color:#000;
+    padding-top:8px;
+
+}
+
+
+.header{
+    position: relative;
+    top:-20px; 
+    color: #000;
+    font-family: Roboto Bold Condensed;
+    font-size: 24px;
+    text-transform:uppercase; 
+}
+
+a.pagelink.active {
+    cursor: default;
+}
+
+.tavik-logo {
+    padding-left: 10px;
+    min-width: 1000px;
+}
+
+.portal-bkadmin-content {
+    margin:10px 10px 30px 10px;
+    /*background: url('../images/ListView-WhiteBackground.png') repeat;*/
+    background-color: #fff;
+    background-size: 100% 100%;
+    padding:4px 32px 26px;
+    /*min-width: 950px;*/
+    /*width:100%;*/
+    padding-top: 45px;
+}
+
+.bkadmin-table-main {
+    width:100%;
+    margin-top:20px;
+}
+
+.bkadmin-table-main tr:first-child td {
+    vertical-align: baseline;
+    font-family: Roboto Bold Condensed;
+    font-size:18px;
+    color:#000;
+}
+
+.bkadmin-table-main tr:first-child td a {
+    text-decoration: none;
+    color:#000;
+}
+
+.bkadmin-table-internal th, .bkadmin-table-internal td {
+    border: 1px solid #cdcdcd;
+}
+
+.resetpass{
+    background-color: #231f20; 
+    color: white; 
+    border-radius: 5px;
+    text-decoration: none; 
+    padding: 5px 10px;
+    font-family: Roboto Condensed;
+}
